@@ -306,7 +306,7 @@ fun SettingScreen() {
             // Check Update
             var checkUpdate by rememberSaveable {
                 mutableStateOf(
-                    prefs.getBoolean("check_update", true)
+                    prefs.getBoolean("check_update", false)
                 )
             }
 
