@@ -70,7 +70,6 @@ fun SuperUserScreen() {
     LaunchedEffect(Unit) {
         if (viewModel.appList.isEmpty()) {
             viewModel.fetchAppList()
-            viewModel.showSystemApps = true
         }
     }
 
