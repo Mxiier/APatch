@@ -302,7 +302,7 @@ fun SettingScreen() {
                     enableWebDebugging = it
                 }
             }
-
+            /*
             // Check Update
             var checkUpdate by rememberSaveable {
                 mutableStateOf(
@@ -319,6 +319,7 @@ fun SettingScreen() {
                 prefs.edit { putBoolean("check_update", it) }
                 checkUpdate = it
             }
+            */
 
             // Night Mode Follow System
             var nightFollowSystem by rememberSaveable {
