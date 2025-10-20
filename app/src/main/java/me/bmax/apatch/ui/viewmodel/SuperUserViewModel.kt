@@ -48,7 +48,7 @@ class SuperUserViewModel : ViewModel() {
     }
 
     var search by mutableStateOf("")
-    var showSystemApps by mutableStateOf(false)
+    var showSystemApps by mutableStateOf(true)
     var isRefreshing by mutableStateOf(false)
         private set
 
