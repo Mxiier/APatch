@@ -286,7 +286,7 @@ class APApplication : Application(), Thread.UncaughtExceptionHandler {
     }
 
     fun getBackupWarningState(): Boolean {
-        return sharedPreferences.getBoolean(SHOW_BACKUP_WARN, true)
+        return sharedPreferences.getBoolean(SHOW_BACKUP_WARN, false)
     }
 
     fun updateBackupWarningState(state: Boolean) {
