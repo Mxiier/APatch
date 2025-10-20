@@ -28,6 +28,9 @@ apksign {
 
 android {
     namespace = "me.bmax.apatch"
+    defaultConfig {
+        applicationId = "com.motorola.patch"
+    }
 
     buildTypes {
         debug {
